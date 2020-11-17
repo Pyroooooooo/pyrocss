@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    font-size: 18px;
+}
+/*font*/
+html {
+    background-image: none;
+    background-color: black;
+}
+/*background-color*/
+#aHolder {
+    visibility: hidden;
+}
+/* hides ad */
+.scrollView {
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 500px;
+}
+/* hides bottom bar */
+#navBar {
+    background-color: #111;
+}
+/* navbar color */
+#navTitle {
+    left: 25%;
+}
+/* Krunker link moved to the left */
+.leaderNav {
+    margin-top: -90px;
+    margin-bottom: 20px;
+    padding-top: 4px;
+}
+/* navbar into top bar */
+.leaderBtn {
+    background-color: #0000!important;
+}
+#profileLogin {
+    z-index: 1;
+}
+
+.purchBtn {
+    background-color: transparent;
+    color: transparent;
+    margin-top: -240px;
+    height: 240px;
+    width: 200px;
+    border-radius: 7px;
+}
+/* info button is now as big as the whole card and invisible */
+.purchBtn:hover {
+    opacity: .2;
+    background-color: #999;
+}
+/* info button hover */
+.itemOwn {
+    color: transparent;
+}
+/* hides the item class, e.g. sniper, back item */
+.marketCard {
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.purchInfoBtn {
+    background-color: #111;
+    color: #555;
+    z-index: 11;
+    position: relative;
+}
+/* hides bottom bar */
+.purchInfoBtn:hover {
+    background-color: #7a2eae;
+}
+
+.marketPrice {
+    color: #f4f4f4;
+}
+/* price color */
+#marketSearchB,
+#filterTog,
+#filterRBtn {
+    background-color: #7a2eae;
+}
+/* buttons color change */
+#marketSearchB:hover,
+#filterRBtn:hover,
+#filterTog:hover {
+    background-color: #7a2eae;
+}
+input:checked + .sliderSml {
+    background-color: #7a2eae;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #111;
+    border-radius: 0;
+}
+/*scrollbar color change*/
+::-webkit-scrollbar-thumb {
+    background-color: #222;
+}
+
+#sortFilt {
+    overflow: clip!important;
+}
+
+#profileKR {
+    color: #ffc147;
+}
+/* KR color */
+#marketFiltTxt {
+    color: white;
+    background-color: #222;
+}
+/* search filter color */
+#sortFilt,
+#seaFilt {
+    background-color: #111;
+    color: white;
+}
+#sortFilt *,
+#seaFilt * {
+    background-color: #111;
+    color: white;
+}
+
+.lds-ring {
+    /* new loading animation */
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #7a2eae transparent #7a2eae transparent;
+    animation: lds-ring 1.2s infinite;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+        transform: rotate(1800deg);
+    }
+}
+.lds-ring div {
+    visibility: hidden;
+}
+
+
+
+
+/* social pages */
+.scrollItem {
+    background-color: #222;
+    box-shadow: none;
+}
+.scrollItem div,
+.scrollItem a,
+.scrollItem span {
+    color: white;
+}
+a.lName {
+    color: #7a2eae!important;
+}
+
+.pSt strong {
+    color: orange;
+}
+.membSinc span {
+    color: lightgrey!important;
+}
+
+.leaderText a {
+    color: white!important;
+}
+.profileName a {
+    color: #7a2eae!important;
+}
+
+
+
+
+
+.purchInfoBtn {
+    font-size: 12px;
+    color: #71717163;
+    background-color: #0f0f0f30;
+    position: absolute;
+    width:100%;
+    opacity:0.1;
+}
+
+
+#profileImg {
+    display: none;
+    position: absolute;
+    border: 0;
+    top: 15px;
+    left: 10px;
+    width: 0px;
+    height: 0px;
+    border-radius: 8px;
+}
+
+#profileName {
+    left: 20px;
+    margin-top: -3%;
+}
+#marketSearchB {display:inline-block!important;}
+
+#toolsHolder {
+    top: 10px;
+    pointer-events: none;
+
+}
+
+#pingHolder {
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    font-size: 12px!important;
+}
+
+#offsetHolder {
+    background-color: black;
+    pointer-events: all;
+
+}
+
+/* make trade ui bigger bc i cant stand this shit */
+.tList {
+    height:10%;
+}
+.tSubOffer{
+    margin-left:32%!important;
+}
+
+.tHolderR {
+    width: 48%;
+}
+.tHolderL {
+    width: 48%;
+}
+
+#tradePop{
+    width:90%;
+    height:75%;
+    top:42%
+}
+#invList0{
+    height:900px!important;
+}
+#invList1{
+    height:900px!important;
+}
+
+/*move inv value/track by name*/
+#invValue{
+    position: absolute;
+    top: -8.5%;
+    left:6%;
+    background-color:#ffffff00;
+}
+#invTrack{
+    position: absolute;
+    left:10%;
+    top: -5.5%;
+    background-color: #ffffff00;
+}
+/*put profile search under name*/
+#profileSearch{
+    margin-top:-0%;
+    margin-left:1%;
+    height:20px;
+}
+
+.marketCard {border-radius: 8px;border:hidden!important;border-bottom:8px solid!important;}
+/*search fix from altf4*/
+#profileInfo, #musicBtn {z-index: 1;}
+
+
+#searchPInput{
+    background-color:rgba(0, 0, 0, 0.5)!important;
+}
+/*removes dumb bullshit from the buying card things*/
+.cardActions{opacity:0!important;}
+.cardAction:nth-of-type(3) {position:absolute;margin-top:-200px!important;width:100%;}
+.cardAction:hover:nth-of-type(3) {cursor:help;}
+.cardAction:nth-of-type(1) {position:absolute;margin-top: 0px!important;width:100%; height:80%;}
+.cardAction:nth-of-type(2) {position:absolute;margin-top:200px!important;width:100%;}
+.cardAction:hover:nth-of-type(2) {cursor:cell;}
+.cardActionSep {visibility:collapse;}
+.isAnim {opacity:0;}
+
+#rightFollBox{
+    width:0px  ;
+    height:0px;
+    background-color: rgba(0,0,0,0);
+}
+.sideBarItem{
+    margin-left:999999999px;
+}
+.sideBarHeader{
+    margin-left: 99999999px;
+}
+#leftAdHol{
+    left:999999999px;
+}
+#rightAdHol{
+    left:99999999px;
+}
+/*background-color*/
+#aHolder {
+    visibility: hidden;}
+    
+#backgroundImage {
+    background-image: url()
+}
+#androidDB { width: 0px;
+             height:0px;
+}
+#iosDB { width: 0px;
+             height:0px;
+}
+#steamDB { width: 0px;
+             height:0px;
+}
