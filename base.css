@@ -1,0 +1,236 @@
+
+#spinButton {
+background-color: #f77cff;
+}
+/*spin button*/
+.standout {
+    color: #f77cff;
+}
+/*advert button*/
+.voteHint{
+    background-color: #f77cff;
+}
+/*map dono button*/
+.buttonP {
+    background-color: #f77cff!important;
+    box-shadow: inset 0 0px!important ;
+}
+.buttonR {
+    background-color: #f77cff!important;
+    box-shadow: inset 0 0px!important ;
+}
+.button {
+    background-color: #f77cff!important;
+    box-shadow: inset 0 0px!important ;
+}
+/*bottom buttons*/
+.twitch {
+    text-shadow: -1px -1px 0 #f77cff, 1px -1px 0 #f77cff, -1px 1px 0 #f77cff, 1px 1px 0 #f77cff, -2px -2px 0 #f77cff, 2px -2px 0 #f77cff, -2px 2px 0 #f77cff, 2px 2px 0 #f77cff;
+}
+.youtube {
+    text-shadow: -1px -1px 0 #f77cff, 1px -1px 0 #f77cff, -1px 1px 0 #f77cff, 1px 1px 0 #f77cff, -2px -2px 0 #f77cff, 2px -2px 0 #f77cff, -2px 2px 0 #f77cff, 2px 2px 0 #f77cff;
+}
+.strmViews{
+    color:#f77cff;
+}
+/*stream/yt text*/
+#merchImg{
+    height:0px;
+    width:0px;
+}
+.krSocial {
+    background-color: #f77cff;
+    box-shadow: inset 0 -5px 0 0 #ca67d0;
+}
+.progressBarInner {
+background:#f77cff;
+}
+.iconProfile {
+    background-image: url(https://i.imgur.com/giN0PeH.png)
+}
+.iconShop {
+    background-image: url(https://i.imgur.com/ZYCJgJD.png)
+}
+.iconChall {
+    background-image: url(https://i.imgur.com/HHqn5w2.png)
+}
+.iconSocial {
+    background-image: url(https://i.imgur.com/dZoYtdk.png)
+}
+.iconGames {
+    background-image: url(https://i.imgur.com/hGA8akx.png)
+}
+.iconMods {
+    background-image: url(https://i.imgur.com/Z1sj7Uq.png)
+}
+.iconSettings {
+    background-image: url(https://i.imgur.com/hiilq8v.png)
+}
+a:visited {
+    color: #f77cff;
+}
+a {
+    color: #f77cff!important;
+}
+.sliderVal{
+    background-color:#f77cff;
+}
+.xpBarB{
+    background-color:#f77cff;
+}
+.chalXPBarC{
+    background-color:#f77cff!important;
+}
+#timerVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#timerIcon {
+    width:0px;
+    height:0px;
+}
+#timerDisplay{
+    background-color:rgba(0,0,0,0);
+}
+#healthValueHolder{
+    background-color: rgba(0,0,0,0);
+    width:500px;
+}
+#healthValue{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 35px;
+    left: 800px;
+    bottom:199px;
+    position: absolute;
+}
+#maxHP{
+    color:#fdc2ff00;
+    text-shadow: -1px -1px 0 #0000, 1px -1px 0 #0000, -1px 1px 0 #0000, 1px 1px 0 #0000!important;
+    display:none;
+}
+.leaderCounter{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.leaderNameM{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#leaderDisplay{
+    background-color:#fff0;
+}
+.countIcon{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color:#fff0;
+}
+#ammoVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 35px;
+    margin-bottom: 118px;
+    margin-top:-60px;
+}
+#ammoMax{
+    color:#fdc2ff00;
+    display:none;
+    text-shadow: -1px -1px 0 #0000, 1px -1px 0 #0000, -1px 1px 0 #0000, 1px 1px 0 #0000!important;
+
+}
+#ammoDisplay{
+    background-color:rgba(0, 0, 0, 0);
+    width:60px;
+    right: 800px;
+    bottom:182px;
+    position: absolute;
+}
+#healthBar{
+    width: 0px;
+    height:0px;
+}
+#challIcon{
+    width:0px;
+    height:0px;
+}
+#ammoIcon{
+    width:0px;
+    height:0px;
+}
+#weapDisplay {
+    position: absolute;
+    z-index: 1;
+    right: 46%;
+    bottom: -200px;
+}
+.weapItem {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.weapKey {
+    width:0px;
+    height:0px;
+    color: #fff0;
+}
+#killsVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#deathsVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#streakVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#myScoreVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#igXPBarProg {
+    background-color: #f77cff!important;
+}
+#reloadMsg{
+    bottom:100px;
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background: rgba(0,0,0,0);
+}
+#killCount{
+    position:absolute;
+    margin-top:260%;
+    right:50%;
+}
+#deathCount{
+    position:absolute;
+    margin-top:260%;
+    right:30%;
+}
+#streakCount{
+    position:absolute;
+    margin-top:260%;
+    right:10%;
+}
+#fpsDisplay{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#pingText{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#ingameFPS{
+    color:#fa73ff!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#curGameInfo{
+    color:#fdc2ff!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#ot-sdk-btn-floating.ot-floating-button{
+    position:absolute;
+    bottom:-999px;
+
+}
