@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@-webkit-keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+@-webkit-keyframes color-change-2x{0%{background:#fbbdff85}100%{background:#fccbff85}}@keyframes color-change-2x{0%{background:#fbbdff85}100%{background:#fccbff85}}
+* {
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+#menuHolder{
+    	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+#inGameUI{
+        	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+#spinButton {
+background-color: #f77cff;
+}
+/*spin button*/
+.standout {
+    color: #f77cff;
+}
+/*advert button*/
+.voteHint{
+    background-color: #f77cff;
+}
+/*map dono button*/
+.buttonP {
+    background-color: #f77cff!important;
+    box-shadow: inset 0 0px!important ;
+}
+.buttonR {
+    background-color: #f77cff!important;
+    box-shadow: inset 0 0px!important ;
+}
+.button {
+    background-color: #f77cff!important;
+    box-shadow: inset 0 0px!important ;
+}
+.button.small{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+/*bottom buttons*/
+.twitch {
+    text-shadow: -1px -1px 0 #f77cff, 1px -1px 0 #f77cff, -1px 1px 0 #f77cff, 1px 1px 0 #f77cff, -2px -2px 0 #f77cff, 2px -2px 0 #f77cff, -2px 2px 0 #f77cff, 2px 2px 0 #f77cff;
+}
+.youtube {
+    text-shadow: -1px -1px 0 #f77cff, 1px -1px 0 #f77cff, -1px 1px 0 #f77cff, 1px 1px 0 #f77cff, -2px -2px 0 #f77cff, 2px -2px 0 #f77cff, -2px 2px 0 #f77cff, 2px 2px 0 #f77cff;
+}
+.strmViews{
+    color:#f77cff;
+}
+/*stream/yt text*/
+#merchImg{
+    height:0px;
+    width:0px;
+}
+.krSocial {
+    background-color: #f77cff;
+    box-shadow: inset 0 -5px 0 0 #ca67d0;
+}
+.progressBarInner {
+background:#f77cff;
+}
+.iconProfile {
+    background-image: url(https://i.imgur.com/giN0PeH.png)
+}
+.iconShop {
+    background-image: url(https://i.imgur.com/ZYCJgJD.png)
+}
+.iconChall {
+    background-image: url(https://i.imgur.com/HHqn5w2.png)
+}
+.iconSocial {
+    background-image: url(https://i.imgur.com/dZoYtdk.png)
+}
+.iconGames {
+    background-image: url(https://i.imgur.com/hGA8akx.png)
+}
+.iconMods {
+    background-image: url(https://i.imgur.com/Z1sj7Uq.png)
+}
+.iconSettings {
+    background-image: url(https://i.imgur.com/hiilq8v.png)
+}
+a:visited {
+    color: #f77cff;
+}
+a {
+    color: #f77cff!important;
+}
+.sliderVal{
+    background-color:#f77cff;
+}
+.xpBarB{
+    background-color:#f77cff;
+}
+.chalXPBarC{
+    background-color:#f77cff!important;
+}
+#timerVal{
+    color:#fdc2ff;
+    position: absolute;
+    left:0;
+    top:0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#timerIcon {
+    width:0px;
+    height:0px;
+}
+#timerDisplay{
+    background-color:rgba(0,0,0,0);
+}
+#healthValueHolder{
+    background-color: rgba(0,0,0,0);
+    width:500px;
+}
+#healthValue{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 70px;
+    left: 800px;
+    bottom:199px;
+    position: absolute;
+	-webkit-animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+	        animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+}
+#maxHP{
+    color:#fdc2ff00;
+    text-shadow: -1px -1px 0 #0000, 1px -1px 0 #0000, -1px 1px 0 #0000, 1px 1px 0 #0000!important;
+    display:none;
+}
+.leaderCounter{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.leaderNameM{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#leaderDisplay{
+    background-color:#fff0;
+}
+.countIcon{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color:#fff0;
+}
+#ammoVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 70px;
+	-webkit-animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+	        animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+}
+#ammoMax{
+    color:#fdc2ff00;
+    display:none;
+    text-shadow: -1px -1px 0 #0000, 1px -1px 0 #0000, -1px 1px 0 #0000, 1px 1px 0 #0000!important;
+
+}
+#ammoDisplay{
+    background-color:rgba(0, 0, 0, 0);
+    width: 400%;
+    height: 90px;
+    right: 800px;
+    bottom:182px;
+    position: absolute;
+}
+#healthBar{
+    width: 0px;
+    height:0px;
+}
+#challIcon{
+    width:0px;
+    height:0px;
+}
+#ammoIcon{
+    width:0px;
+    height:0px;
+}
+#weapDisplay {
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    right: 0%;
+
+}
+.weapItem {
+    position: relative;
+    text-align: right;
+    margin-top: 0px;
+    display:flex;
+    background-image: linear-gradient(to right, #00000000 , #000000);
+
+}
+.weapKey {
+    width:0px;
+    height:0px;
+    color: #fff0;
+}
+#killsVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#deathsVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#streakVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#myScoreVal{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#igXPBarProg {
+    background-color: #f77cff!important;
+}
+#reloadMsg{
+    bottom:100px;
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background: rgba(0,0,0,0);
+}
+.topRightCounters{
+    margin-top:130%;
+}
+#killCount{
+    position:fixed;
+    right:1%;
+    top:60%;
+
+}
+#deathCount{
+    position:fixed;
+    right:1%;
+    top:65%;
+
+}
+#streakCount{
+    position:fixed;
+    right:1%;
+    top:70%;
+
+}
+#fpsDisplay{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top:50px;
+    margin-left:-55%!important;
+}
+#pingText{
+    color:#fdc2ff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-left:200%!important;
+}
+#pingIcon{
+    color:#fdc2ff!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position:absolute;
+    left:0;
+    bottom:0%;
+}
+#pingDisplay{
+    position:absolute;
+    left:120%;
+    top:12%;
+}
+#ingameFPS{
+    color:#fa73ff!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#curGameInfo{
+    color:#fdc2ff!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#ot-sdk-btn-floating.ot-floating-button{
+    display:none;
+}
+#aHolder {
+    visibility: hidden;
+}
+#menuItemContainer {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+}
+.menuItem {
+    position: relative;
+    color: #fff;
+    flex-grow: 1;
+    display: flex;
+    transition: all .1s;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#0000,#000000);
+    text-align: center;
+    pointer-events: all;
+    cursor: pointer;
+}
+#mapInfoHolder{
+    bottom:11%;
+    background: #00000000;
+}
+#termsInfo{
+    background:#00000000;
+}
+#subLogoButtons{
+    bottom:10%
+}
+#menuClassName{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+#menuClassSubtext{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+.bigShadowT{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+#popupHolder{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+.classCard{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+#chatHolder{
+    bottom:3%!important;
+    left:1%!important;
+}
+#hudClassIcon{
+    display:none;
+}
+.debugInfo{
+    top:0;
+}
+#streamContainer{
+    left:3px;
+    top:75px;
+}
+#windowHolder{
+        	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+#menuWindow{
+        	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: color-change-2x .5s linear infinite alternate both;
+}
+#spectButton{
+    position:relative;
+    bottom:-22%;
+}
