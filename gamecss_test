@@ -2,6 +2,7 @@
 @-webkit-keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}
 @keyframes fade-in{0%{opacity:0}100%{opacity:1}}
 @-webkit-keyframes color-change-2x{0%{background:#fbbdff85}100%{background:#fccbff85}}@keyframes color-change-2x{0%{background:#fbbdff85}100%{background:#fccbff85}}
+
 * {
     font-family: 'Montserrat', sans-serif;
     ;
@@ -38,6 +39,8 @@ background-color: #f77cff;
 .button {
     background-color: #f77cff!important;
     box-shadow: inset 0 0px!important ;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+
 }
 .button.small{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
@@ -232,24 +235,22 @@ a {
     background: rgba(0,0,0,0);
 }
 .topRightCounters{
-    margin-top:130%;
+    bottom:10px;
+    position:fixed;
+    right:42.7%;
 }
 #killCount{
-    position:fixed;
-    right:1%;
-    top:60%;
-
+    position:relative;
+    right:3%;
 }
-#deathCount{
-    position:fixed;
-    right:1%;
-    top:65%;
+#deathCount,#kdCount,#scoreCount{
+    position:relative;
+    right:3%;
 
 }
 #streakCount{
-    position:fixed;
-    right:1%;
-    top:70%;
+    position:relative;
+    right:3%;
 
 }
 #fpsDisplay{
@@ -363,4 +364,18 @@ a {
 #spectButton{
     position:relative;
     bottom:-22%;
+}
+#policePopC{
+            text-shadow: 0px 0px 0 #000!important;
+}
+.settingsHeader{
+        -webkit-animation: color-change-2x .5s linear infinite alternate both;
+    width: 102.8%;
+}
+#menuWindow{
+   -webkit-box-shadow: '';
+    box-shadow: '' ;
+}
+#itemSearchH, .serverHeader{
+    background-color:#0000;
 }
