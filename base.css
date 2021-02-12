@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@-webkit-keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-bottom{0%{-webkit-transform:rotateX(80deg);transform:rotateX(80deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+@-webkit-keyframes color-change-2x{0%{background:#fbbdff85}100%{background:#fccbff85}}@keyframes color-change-2x{0%{background:#fbbdff85}100%{background:#fccbff85}}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+#menuHolder{
+    	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+#inGameUI{
+        	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
 
 #spinButton {
 background-color: #f77cff;
@@ -22,6 +39,11 @@ background-color: #f77cff;
 .button {
     background-color: #f77cff!important;
     box-shadow: inset 0 0px!important ;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+
+}
+.button.small{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
 }
 /*bottom buttons*/
 .twitch {
@@ -83,6 +105,9 @@ a {
 }
 #timerVal{
     color:#fdc2ff;
+    position: absolute;
+    left:0;
+    top:0;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #timerIcon {
@@ -99,10 +124,12 @@ a {
 #healthValue{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 35px;
+    font-size: 70px;
     left: 800px;
     bottom:199px;
     position: absolute;
+	-webkit-animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+	        animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
 }
 #maxHP{
     color:#fdc2ff00;
@@ -128,9 +155,9 @@ a {
 #ammoVal{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 35px;
-    margin-bottom: 118px;
-    margin-top:-60px;
+    font-size: 70px;
+	-webkit-animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
+	        animation: flip-in-hor-bottom 0.25s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s both;
 }
 #ammoMax{
     color:#fdc2ff00;
@@ -140,7 +167,8 @@ a {
 }
 #ammoDisplay{
     background-color:rgba(0, 0, 0, 0);
-    width:60px;
+    width: 400%;
+    height: 90px;
     right: 800px;
     bottom:182px;
     position: absolute;
@@ -160,13 +188,17 @@ a {
 #weapDisplay {
     position: absolute;
     z-index: 1;
-    right: 46%;
-    bottom: -200px;
+    bottom: 0%;
+    right: 0%;
+
 }
 .weapItem {
     position: relative;
-    text-align: center;
-    margin-top: 50px;
+    text-align: right;
+    margin-top: 0px;
+    display:flex;
+    background-image: linear-gradient(to right, #00000000 , #000000);
+
 }
 .weapKey {
     width:0px;
@@ -176,18 +208,22 @@ a {
 #killsVal{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 #deathsVal{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 #streakVal{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 #myScoreVal{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 #igXPBarProg {
     background-color: #f77cff!important;
@@ -198,28 +234,47 @@ a {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     background: rgba(0,0,0,0);
 }
-#killCount{
-    position:absolute;
-    margin-top:260%;
-    right:50%;
+.topRightCounters{
+    bottom:10px;
+    position:fixed;
+    right:42.7%;
 }
-#deathCount{
-    position:absolute;
-    margin-top:260%;
-    right:30%;
+#killCount{
+    position:relative;
+    right:3%;
+}
+#deathCount,#kdCount,#scoreCount{
+    position:relative;
+    right:3%;
+
 }
 #streakCount{
-    position:absolute;
-    margin-top:260%;
-    right:10%;
+    position:relative;
+    right:3%;
+
 }
 #fpsDisplay{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top:50px;
+    margin-left:-55%!important;
 }
 #pingText{
     color:#fdc2ff;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-left:200%!important;
+}
+#pingIcon{
+    color:#fdc2ff!important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position:absolute;
+    left:0;
+    bottom:0%;
+}
+#pingDisplay{
+    position:absolute;
+    left:120%;
+    top:12%;
 }
 #ingameFPS{
     color:#fa73ff!important;
@@ -231,4 +286,96 @@ a {
 }
 #ot-sdk-btn-floating.ot-floating-button{
     display:none;
+}
+#aHolder {
+    visibility: hidden;
+}
+#menuItemContainer {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+}
+.menuItem {
+    position: relative;
+    color: #fff;
+    flex-grow: 1;
+    display: flex;
+    transition: all .1s;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#0000,#000000);
+    text-align: center;
+    pointer-events: all;
+    cursor: pointer;
+}
+#mapInfoHolder{
+    bottom:11%;
+    background: #00000000;
+}
+#termsInfo{
+    background:#00000000;
+}
+#subLogoButtons{
+    bottom:10%
+}
+#menuClassName{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+#menuClassSubtext{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+.bigShadowT{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+#popupHolder{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+.classCard{
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000!important;
+}
+#chatHolder{
+    bottom:3%!important;
+    left:1%!important;
+}
+#hudClassIcon{
+    display:none;
+}
+.debugInfo{
+    top:0;
+}
+#streamContainer{
+    left:3px;
+    top:75px;
+}
+#windowHolder{
+        	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+#menuWindow{
+        	-webkit-animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.25s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: color-change-2x .5s linear infinite alternate both;
+}
+#spectButton{
+    position:relative;
+    bottom:-22%;
+}
+#policePopC{
+            text-shadow: 0px 0px 0 #000!important;
+}
+.settingsHeader{
+        -webkit-animation: color-change-2x .5s linear infinite alternate both;
+    width: 102.8%;
+}
+#menuWindow{
+   -webkit-box-shadow: '';
+    box-shadow: '' ;
+}
+#itemSearchH, .serverHeader{
+    background-color:#0000;
 }
