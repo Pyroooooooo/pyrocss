@@ -379,3 +379,13 @@ a {
 #itemSearchH, .serverHeader{
     background-color:#0000;
 }
+
+.weapIcon{
+    opacity:0 !important;
+    transition-duration:0.15s;
+    height:0px;
+}
+.weapIcon[style*="1"]{
+    opacity: 1!important;
+    height:70px;
+}
