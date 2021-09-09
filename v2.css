@@ -2,6 +2,12 @@
 * {font-family: 'Nova Square', cursive }
 @-webkit-keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}@keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}
 
+.endAHolder{
+    display:none;
+}
+#aHolder{
+    display:none;
+}
 
 #menuItemContainer{
     width:120px;
