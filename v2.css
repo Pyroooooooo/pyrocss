@@ -19,7 +19,7 @@
             animation: blink-1 0.8s both;
     color:#f681ff;
 }
-.discordSocial, .material-icons-outlined,.redditSocial,#editorBtnM,.verticalSeparator, .material-icons, #twitchHolder, #newsHolder, #tlInfHold, .bigMFeatBarI, .krSocial, #menuMiniProfilePic, #faceItIconM, #gameNameHolder, #seasonLabel, #menuClassNameTag, #menuClassSubtext, .speechBox, #policeButton, .verticalSeparatorInline, .terms, #menuClassName, #uiBase.onMenu #voiceDisplay, #supportMapCreator, #ammoIcon, .weapKey,#hudClassIcon,#healthBar,#challIcon,#timerIcon,#recTimer,.shopImg,.setBod,.xpBarB,.setHed{
+.discordSocial, .material-icons-outlined,.redditSocial,#editorBtnM,.verticalSeparator, .material-icons, #twitchHolder, #newsHolder, #tlInfHold, .bigMFeatBarI, .krSocial, #menuMiniProfilePic, #faceItIconM, #gameNameHolder, #seasonLabel, #menuClassNameTag, #menuClassSubtext, .speechBox, #policeButton, .verticalSeparatorInline, .terms, #menuClassName, #uiBase.onMenu #voiceDisplay, #supportMapCreator, #ammoIcon, .weapKey,#hudClassIcon,#healthBar,#challIcon,#timerIcon,#recTimer,.shopImg,.setBod,.xpBarB{
     display:none!important;
 }
 
@@ -282,4 +282,28 @@ input:checked+.slider{
 }
 .inputGrey2{
     margin-left:180px!important;
+}
+.onGame #chatHolder{
+    bottom:50px!important;
+    left:0px!important;
+}
+.selectorItem{
+    background-color:rgba(0,0,0,0);
+    border:0px;
+}
+.skinColorItem{
+    margin-right:620px!important;
+}
+.premiumSkinCol{
+    display:inline-block!important;
+    margin-right:180px!important;
+    color:white!important;
+}
+#customizeContainer{
+}
+.classCard{
+    background-color:rgba(0,0,0,0);
+}
+.clsXPBarC{
+    background-color:#f681ff
 }
