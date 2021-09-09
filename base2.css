@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+* {font-family: 'Nova Square', cursive }
+@-webkit-keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}@keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}
+
+
+#menuItemContainer{
+    width:120px;
+    background: rgba(0,0,0,0);
+    height:5%;
+    left:0px;
+    margin-top:-15px;
+    display:block;
+}
+.menuItem{
+    margin-top:20px;
+}
+.menuItemTitle:hover{
+    -webkit-animation: blink-1 0.8s both;
+            animation: blink-1 0.8s both;
+    color:#f681ff;
+}
+.discordSocial, .material-icons-outlined,.redditSocial,#editorBtnM,.verticalSeparator, .material-icons, #twitchHolder, #newsHolder, #tlInfHold, .bigMFeatBarI, .krSocial, #menuMiniProfilePic, #faceItIconM, #gameNameHolder, #seasonLabel, #menuClassNameTag, #menuClassSubtext, .speechBox, #policeButton, .verticalSeparatorInline, .terms, #menuClassName, #uiBase.onMenu #voiceDisplay, #supportMapCreator, #ammoIcon, .weapKey,#hudClassIcon,#healthBar,#challIcon,#timerIcon,#recTimer,.shopImg,.setBod,.xpBarB,.setHed{
+    display:none!important;
+}
+
+.headerBar{
+    background-color: rgba(0,0,0,0)
+}
+.buttonO{
+    border:0px!important;
+    background-color:rgba(0,0,0,0);
+    left:-14px;
+    position:absolute;
+    height:10px;
+    top:0px;
+    
+}
+.buttonO:hover{
+        -webkit-animation: blink-1 0.8s both;
+            animation: blink-1 0.8s both;
+    color:#f681ff!important;
+    border:0px!important;
+}
+#menuBtnRanked:hover, #menuBtnJoin:hover, #menuBtnBrowser:hover, #inviteButton:hover, #menuBtnHost:hover{
+    opacity:1!important;
+    -webkit-animation: blink-1 0.8s both;
+            animation: blink-1 0.8s both;
+    color:#f681ff!important;
+}
+.button:hover, .button{
+    -webkit-transform: none !important;
+    border:0px!important;
+}
+#mLevelCont, .button.small {
+    background-color:rgba(0,0,0,.0);
+}
+.progressBar{
+    background-color:rgba(0,0,0,0);
+    height:5px;
+}
+#mLevelContV{
+    font-size:20px;
+    margin-left:-35px;
+    margin-top: -4px;
+}
+.progressBarInner{
+    border-radius:0px;
+    height:5px;
+    background-image: linear-gradient(to right,#ff0bfb,#ff9ffd,94%,white);
+    opacity:1;
+    margin-top:-48px;
+    margin-left:-14px;
+}
+#menuKRCount{
+    top:14px!important;
+}
+#subLogoButtons{
+    bottom:-20px!important;
+}
+#customizeButton{
+    background-color:rgba(0,0,0,0);
+    height:300px;
+    width:230px;
+    bottom:80%;
+    opacity:0;
+}
+
+#menuBtnRanked{
+    position:relative;
+    opacity:0.2;
+}
+#menuBtnHost{
+    left:70px;
+    opacity:0.2;
+}
+#menuBtnBrowser{
+    left:30px;
+    opacity:0.2;
+}
+#inviteButton{
+    right:60px;
+    opacity:0.2;
+}
+#menuBtnJoin{
+    right:100px;
+    opacity:0.2;
+}
+#uiBase.onMenu #spectButton{
+    bottom:-48%;;
+    opacity:.32;
+    margin-left:40px;
+}
+#spectButton .switchsml{
+    left:-80px!important;
+    width:90px;
+    opacity:0;
+}
+#menuClassContainer{
+    bottom:-80.5%;
+    left:80%
+}
+#termsInfo,#chatList, #chatInputHolder{
+    background-color:rgba(0,0,0,0);
+}
+#mapInfoHolder{
+    top:50px;
+    right:-4px;
+    font-size:10px;
+}
+#mapInfo{
+    font-size:10px;
+}
+#uiBase.onMenu #chatHolder, #chatInputHolder{
+    color:rgba(0,0,0,0)!important;
+    left:0px;
+    bottom:0px;
+}
+#chatInputHolder{
+    padding-left:0px;
+    border:0px;
+    margin-top:-10px;
+}
+#chatInput{
+    width:90%;
+    margin-right:10%;
+    background-color:rgba(0,0,0,0);
+    border:0px;
+    margin-top:-200%;
+}
+#leaderDisplay{
+    top:0px;
+    right:0px;
+    background-color:rgba(0,0,0,0);
+}
+.leaderNameM{
+    color:#f681ff;
+}
+.leaderCounter{
+    color:white;
+}
+#topRight{
+    top:0px;
+    right:0px;
+}
+.topRightCounters{
+    top:0px;
+    margin-right:280px;
+    background-color:rgba(0,0,0,0);
+}
+.countIcon{
+    background-color:rgba(0,0,0,0);
+    padding-right:0px;
+    padding-left:0px;
+}
+#bloodDisplay{
+    display:none;
+}
+#ammoDisplay{
+    background-color:rgba(0,0,0,0);
+    margin-right:10px;
+    margin-bottom:-10px;
+    padding:0px;
+    border-radius:0px;
+}
+#bottomRight{
+    bottom:0px;
+    right:0px;
+}
+#weapDisplay{
+    right:10px;
+    bottom:50px;
+}
+.weapIcon{
+    margin-right:0px!important;
+}
+#healthValueHolder{
+    background-color:rgba(0,0,0,0);
+}
+#bottomLeftHolder{
+    bottom:-15px;
+    left:0px;
+}
+#timerDisplay{
+    background-color:rgba(0,0,0,0);
+    margin-right:0px;
+    margin-bottom:0px;
+}
+#topLeftHolder{
+    top:-10px;
+    left:0px;
+}
+#timerVal{
+    margin-left:-10px;
+    margin-bottom:15px;
+}
+#ingameFPS{
+    color:#f681ff!important;
+}
+.debugInfo{
+    margin-top:10px;
+    margin-left:-4px;
+}
+#curGameInfo{
+    margin-left:5px;
+    margin-top:-8px;
+}
+#popupBack,#menuWindow.dark{
+    background-color:rgba(0,0,0,0)!important;
+    box-shadow:0px 0px 0px;
+}
+.shopCard{
+    color:rgb(255, 255, 255)!important;
+    background-color:rgba(0,0,0,0)!important;
+    background-image:none!important;
+    height:50px!important;
+}
+.shopImgGrad{
+    height:50px!important;
+}
+.spinValH{
+    top:7px;
+}
+.bigMenTabsm,.xpBar,.pSt,.setHed,.settingsHeader{
+    background-color:rgba(0,0,0,0);
+    border:0px;
+}
+#vouchPop,#popupContent{
+    background-color:rgb(0, 0, 0)!important;
+}
+#profilePicM{
+    border:0px;
+    width:280px;
+    height:0px;
+}
+#profilePicM::after{
+    content:"Change Profile Picture";
+}
+.pfpAction{
+    margin-top:30px;
+    margin-right:60px;
+    color:rgba(0,0,0,0)!important;
+}
+.settName, .settNameSmall{
+    border-bottom:0px;
+    width:130%!important;
+    background-color:rgba(0,0,0,.0)
+}
+.setBodH{
+    background-color:rgba(0,0,0,0)!important;
+}
+.switch{
+    margin-right:20%;
+}
+input:checked+.slider{
+    background-color:#f681ff!important;
+}
+.slidecontainer{
+    margin-right:20%;
+}
+.sliderVal{
+    right:20%!important;
+}
+.inputGrey2{
+    margin-left:180px!important;
+}
